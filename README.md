@@ -1,5 +1,9 @@
 # ThatFruedDued Kahoot! Scripts
 
+# Notice
+
+These scripts haven't worked in like 3 years so trying to use them is just a waste of time. They are also obfuscated because I was overprotective of my scripts back when I made these and decided to do that, so you can't really learn much from them. I also don't really have time to update these to working versions so it won't ever be fixed.
+
 ## Kahoot! Smasher
 
 Join Kahoot! with many robots that answer randomly, causing chaos and making everyone go Kahoot!s.
