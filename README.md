@@ -19,8 +19,8 @@ bun run index.ts
 Here's a simple tutorial to run the program using [Repl](https://repl.it), a free development platform that provides access to the tools necessary to run this program.
 
 0. Go to [Repl](https://repl.it) and create an account (or sign in)
-0. Create a new Repl
-0. Paste the link to this repository ([https://github.com/ThatFruedDued/kahoot-smasher])
+0. Create a new Repl, import from GitHub URL
+0. Paste the link to this repository (https://github.com/ThatFruedDued/kahoot-smasher)
 0. Wait for the Repl to be created and run it
 0. Follow the prompts in the command window
 
