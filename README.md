@@ -1,6 +1,6 @@
 # ThatFruedDued Kahoot Smasher
 
-A little script you can use to flood Kahoot games with numerous players that randomly answer questions. Fully functional as of **March 28, 2024**.
+A little script you can use to flood Kahoot games with numerous players that randomly answer questions. Fully functional as of **May 3, 2024**.
 
 ## Usage
 
