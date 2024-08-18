@@ -349,15 +349,19 @@ if (isNaN(bots)) {
 	console.error("Invalid number (defaulting to 500)");
 }
 
-for (let i = 0; i < bots; i++) {
-	const name = faker.person.firstName();
-	console.log("Joining as", name);
-	await Promise.allSettled([
-		joinGame(pin, name)
-			.then(() => console.log("Joined as", name))
-			.catch((e) => {
-				console.error(e);
-			}),
-		new Promise((r) => setTimeout(r, 1000 / 15)),
-	]);
+async function main() {
+	for (let i = 0; i < bots; i++) {
+		const name = faker.person.firstName();
+		console.log("Joining as", name);
+		await Promise.allSettled([
+			joinGame(pin, name)
+				.then(() => console.log("Joined as", name))
+				.catch((e) => {
+					console.error(e);
+				}),
+			new Promise((r) => setTimeout(r, 1000 / 15)),
+		]);
+	}
 }
+
+main();

@@ -15,7 +15,7 @@
 	},
 	"scripts": {
 		"start": "bun run src/index.ts",
-		"build": "bun build ./src/index.ts ./src/fakerless.ts --outdir ./min --minify"
+		"build": "bun build ./src/index.ts ./src/fakerless.ts --outdir ./min --minify && bun run build.js"
 	},
 	"license": "AGPL-3.0-only"
 }

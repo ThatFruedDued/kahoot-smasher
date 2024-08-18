@@ -10,17 +10,16 @@ To run this program in your web browser, you can either use a bookmarklet or the
 
 #### Variants
 
-You can either choose to run the [`index.js`](https://github.com/ThatFruedDued/kahoot-smasher/blob/master/min/index.js) script or the [`fakerless.js`](https://github.com/ThatFruedDued/kahoot-smasher/blob/master/min/fakerless.js) script. The `index.js` script includes [Faker](https://fakerjs.dev/), a tool to generate realistic names. However, the inclusion of Faker makes the script much larger and it may not work as a bookmarklet in certain browsers. The `fakerless` script does not include Faker which reduces file size, but the generated names will just be random numbers.
+You can either choose to run the [`index.js`](https://github.com/ThatFruedDued/kahoot-smasher/blob/master/min/index.js) script or the [`fakerless.js`](https://github.com/ThatFruedDued/kahoot-smasher/blob/master/min/fakerless.js) script. The `index.js` script includes [Faker](https://fakerjs.dev/), a tool to generate realistic names. However, the inclusion of Faker makes the script much larger, so it does not work as a bookmarklet. The `fakerless.js` script does not include Faker which reduces file size, but the generated names will just be random numbers.
 
 #### Bookmarklet
 
-0. Copy your desired script.
+0. Copy the contents of the [`fakerless.bookmarklet.js`](https://github.com/ThatFruedDued/kahoot-smasher/blob/master/min/fakerless.bookmarklet.js).
 1. Create a new bookmark.
 2. Set the name to `Kahoot Smasher`.
-3. Type `javascript:` into the URL field.
-4. With your cursor at the end of `javascript:` in the URL field, paste the script you copied earlier.
-5. Save the bookmark.
-6. After you enter a Kahoot game, click on the bookmarklet and the script will run.
+3. Paste the script you copied earlier into the URL field.
+4. Save the bookmark.
+5. After you enter a Kahoot game, click on the bookmarklet and the script will run.
 
 #### Developer Tools
 
