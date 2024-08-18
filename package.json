@@ -1,17 +1,21 @@
 {
-  "name": "kahoot-smasher",
-  "module": "index.ts",
-  "type": "module",
-  "devDependencies": {
-    "@types/bun": "latest",
-    "@types/uuid": "^9.0.8"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  },
-  "dependencies": {
-    "@faker-js/faker": "^8.4.1",
-    "uuid": "^9.0.1"
-  },
-  "license": "AGPL-3.0-only"
+	"name": "kahoot-smasher",
+	"module": "src/index.ts",
+	"type": "module",
+	"devDependencies": {
+		"@types/bun": "latest",
+		"@types/uuid": "^9.0.8"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	},
+	"dependencies": {
+		"@faker-js/faker": "^8.4.1",
+		"uuid": "^9.0.1"
+	},
+	"scripts": {
+		"start": "bun run src/index.ts",
+		"build": "bun build ./src/index.ts ./src/fakerless.ts --outdir ./min --minify"
+	},
+	"license": "AGPL-3.0-only"
 }
